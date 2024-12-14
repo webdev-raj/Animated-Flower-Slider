@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: gil;
+    src: url("./fonts/Gilroy-Bold.ttf");
+}
+
+@font-face{
+    font-family: gil2;
+    src: url("./fonts/Gilroy-Regular.ttf");
+}
+
