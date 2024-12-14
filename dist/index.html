@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Slider Effects</title>
+  <script type="module" crossorigin src="/assets/index-CjKV7ip5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-OpuQsEG6.css">
+</head>
+
+<body>
+    <div class="h-screen w-full bg-zinc-800 bg-[url(images\bg.jpg)] bg-center bg-cover bg-no-repeat font-[gil]">
+        <header class="fixed z-10 w-full flex justify-between items-center py-6 px-10 max-md:px-6">
+            <div class="flex items-center justify-start">
+                <span class="inline-block"><img class="h-14 max-lg:h-12" src="/assets/logo-4AUfc0ML.png" alt=""></span>
+                <h1 class="text-2xl max-md:text-xl">paintify</h1>
+            </div>
+            <nav class="cursor-pointer flex gap-8 max-lg:hidden">
+                <h1 class="text-lg capitalize select-none font-[gil2] font-semibold">home</h1>
+                <h1 class="text-lg capitalize select-none font-[gil2] font-semibold">contact</h1>
+                <h1 class="text-lg capitalize select-none font-[gil2] font-semibold">sides</h1>
+            </nav>
+            <div class="flex items-center gap-4">
+                <i class="ri-search-line text-2xl cursor-pointer"></i>
+                <i class="ri-menu-line text-2xl cursor-pointer"></i>
+            </div>
+        </header>
+        <main class="h-full w-full">
+            <section class="h-full w-full">
+                <div class="swiper h-full w-full">
+                    <div class="swiper-wrapper">
+                        <div id="page1" class="swiper-slide">
+                            <div class="relative h-full w-full">
+                                <div class="h-full w-full flex items-center justify-center">
+                                    <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw]"
+                                        src="/assets/flower_1-CNh6N2jM.png" alt="">
+                                    <h1 class="text-[17rem] leading-none tracking-tight max-md:text-7xl max-xl:text-[12rem]">especial</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="page2" class="swiper-slide">
+                            <div class="relative h-full w-full">
+                                <div class="h-full w-full flex items-center justify-center">
+                                    <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[28vw]"
+                                        src="/assets/flower_2-CFZ0dWCa.webp" alt="">
+                                    <h1 class="text-[17rem] leading-none tracking-tight max-md:text-7xl max-xl:text-[12rem]">cosmic</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="absolute z-20 w-full bottom-0 left-0 py-8 px-10 flex items-center justify-between max-md:px-6">
+            <div class="flex items-center gap-2">
+                <div class="change h-12 w-12 rounded-full overflow-hidden">
+                    <img class="w-full h-full object-cover object-center" src="/assets/girl1-DMb_LXaL.avif" alt="">
+                    <img class="w-full h-full object-cover object-center" src="/assets/girl2-BhpKCVix.avif" alt="">
+                </div>
+                <div class="change h-5 w-fit overflow-hidden">
+                    <h1 class="text-xl capitalize leading-none">lelac</h1>
+                    <h1 class="text-xl capitalize leading-none">anthurioum</h1>
+                </div>
+            </div>
+            <div class="flex gap-2 items-center">
+                <div id="pervious" class="cursor-pointer relative py-6 px-6 rounded-full bg-zinc-500 max-md:p-5"><i
+                        class="ri-arrow-left-wide-fill absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-black"></i>
+                </div>
+                <div id="next" class="cursor-pointer relative py-6 px-6 rounded-full bg-zinc-500 max-md:p-5"><i
+                        class="ri-arrow-right-wide-fill absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-black"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+</body>
+
+</html>
